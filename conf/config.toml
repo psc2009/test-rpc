@@ -1,0 +1,17 @@
+rpc_secret_key="769af463a39f077a0340a189e9c1ec28"
+#连接超时时间，毫秒。
+time_out=2000
+#测试线程数
+threadnum=300
+#测试时间 秒
+test_time=30
+[endpoint.dev]
+uri="tcp://192.168.20.95:3303" 
+user ="order-service"
+secret ="{1BA09530-F9E6-478D-9965-7EB31A59537E}"
+compressor =""
+[endpoint.prod]
+uri="tcp://192.168.20.95:3303" 
+user ="order-service"
+secret ="{1BA09530-F9E6-478D-9965-7EB31A59537E}"
+compressor =""
